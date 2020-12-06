@@ -1,0 +1,67 @@
+body {
+   background-color: rgb(102, 102, 153);    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: sans-serif;
+    letter-spacing: 0.8vw;
+    margin: 2vw;
+    text-align: center;
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    margin: 2vw;
+    height: 25px;
+    text-align: center;
+}
+
+button {
+    margin: 2vw;
+    height: 25px;
+}
+
+.result {
+    color: whitesmoke;
+    font-family: sans-serif;
+    letter-spacing: 0.5vw;
+    margin: 2vw;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 420px) {
+    h1 {
+        letter-spacing: 0.5vw;
+        margin: 1vw;
+    }
+    
+    input {
+        margin: 1vw;
+    }
+    
+    button {
+        margin: 1vw;
+    }
+
+    .result {
+        letter-spacing: 0.3vw;
+        margin: 1vw;
+    }
+}
